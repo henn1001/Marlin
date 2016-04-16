@@ -660,7 +660,7 @@
 
   #if MOTHERBOARD == 33 || MOTHERBOARD == 35 || MOTHERBOARD == 67 || MOTHERBOARD == 68
    // #define FAN_PIN            9 // (Sprinter config)
-   #define FAN_PIN             8 // (Sprinter config) // lolduino Alter Wert: -1
+   #define FAN_PIN             7 // (Sprinter config) // switched to Extruder1 Pin
   #else
     #define FAN_PIN            4 // IO pin. Buffer needed
   #endif
@@ -727,7 +727,7 @@
     #if MOTHERBOARD == 77
       #define HEATER_BED_PIN     9    // BED
     #else
-      #define HEATER_BED_PIN     -1    // BED lolduino Alter Wert: 8
+      #define HEATER_BED_PIN     8    // BED reactivate heater bed
     #endif
   #endif
 
