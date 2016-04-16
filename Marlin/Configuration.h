@@ -371,9 +371,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define max_software_endstops true  // If true, axis won't move to coordinates greater than the defined lengths below.
 
 // Travel limits after homing
-#define X_MAX_POS 80
+#define X_MAX_POS 85
 #define X_MIN_POS 0
-#define Y_MAX_POS 80      
+#define Y_MAX_POS 77      
 #define Y_MIN_POS 0  
 #define Z_MAX_POS 80
 #define Z_MIN_POS 0
@@ -483,7 +483,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // For deltabots this means top and center of the Cartesian print volume.
 #define MANUAL_X_HOME_POS 0
 //#define MANUAL_Y_HOME_POS 0
-#define MANUAL_Y_HOME_POS 80    //update
+#define MANUAL_Y_HOME_POS 77    //update
 #define MANUAL_Z_HOME_POS 0
 //#define MANUAL_Z_HOME_POS 402 // For delta: Distance between nozzle and print surface after homing.
 
@@ -493,7 +493,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {196.85,196.85,6400,101}  // default steps per unit for Ultimaker
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {201.01,201.01,6366.88,97.11}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {40, 40, 2, 40}          // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {200,200,50,2000}        // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
